@@ -32,7 +32,7 @@ $ pip install pytube
 ```bash
 $ python yutub.py
 ```
-* Copy & paste the URL
+* Copy & paste the YouTube URL
 
 ## License
 As you can see Yutub Downloader is under MIT License
