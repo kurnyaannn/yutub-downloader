@@ -53,7 +53,6 @@ def singleDownload():
         print((idx + 1),"-", ps)
     
     try:
-        print("Choose Video Quality")
         quality = int(input("Option => ")) - 1
     except:
         quality = 0
