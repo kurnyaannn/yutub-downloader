@@ -10,15 +10,27 @@
 * pytube 10.4.1
 
 ## Config
-> The default Dowload path is set to `$home/Downloads/Videos`. <br>
+* Download Path
+  > The default Dowload path is set to `$home/Downloads/Videos`. <br>
 
-To change this you can simply configure the `file_path()` function
-```python
-def file_path():
-    ...
-    download_path = os.path.join(home, '$YOUR_PATH')
-    ...
-```
+  To change this you can simply configure the `file_path()` function
+  ```python
+  def file_path():
+      ...
+      download_path = os.path.join(home, '$YOUR_PATH')
+      ...
+  ```
+* Tips
+  Make an alias on your shell / bash to make it more flexible, for example in my zsh
+  ```bash
+  #! $home/.zshrc
+  alias your-alias="python /dir/to/this/project/yutub.py"
+  ```
+  Restart the shell and run
+  ```bash
+  $ your-alias
+  ```
+  
 
 ## Installation
 * Clone this repository using `git clone` command (or just download the `zip` version).
