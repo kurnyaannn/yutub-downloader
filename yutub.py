@@ -54,7 +54,7 @@ def singleDownload():
         redo = main()
     
     list_quality = get_resolution(video)
-
+    print("List of available Video quality :")
     for idx, ps in enumerate(list_quality):
         print((idx + 1),"-", ps)
     
