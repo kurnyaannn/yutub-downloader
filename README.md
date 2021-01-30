@@ -22,7 +22,7 @@ Read <a href="https://www.techadvisor.co.uk/how-to/internet/is-it-legal-download
   ```
 
 ## Usage
-* On Project directory run
+* Inside this project directory run
   ```bash
   $ python yutub.py
   ```
