@@ -71,7 +71,7 @@ def singleDownload():
     file_size = video_type.filesize
     video_type.download(file_path())
  
-    print ("\nEnjoy Your Video.\n")
+    print ("\nVideo Saved.\nEnjoy Your Video.\n")
     again = main()
 
 def playlistDownload():
@@ -89,7 +89,7 @@ def playlistDownload():
         title = video.title
         video.download(file_path())
     
-    print ("Enjoy Your Videos.\n")
+    print ("\nVideos Saved.\nEnjoy Your Videos.\n")
     again = main()
 
 def main():
@@ -103,7 +103,7 @@ def main():
     try:
         select = int(input("Option => "))
     except:
-        print(clrs.ERROR + "Error - There is no such Option. \n" + clrs.ENDC)
+        print(clrs.ERROR + clrs.BOLD + "Error - There is no such Option. \n" + clrs.ENDC)
         main()
     
     if select == SINGLE:
@@ -113,7 +113,7 @@ def main():
     elif select == EXIT:
         quit()
     else:
-        print(clrs.ERROR + "Error - There is no such Option. \n" + clrs.ENDC)
+        print(clrs.ERROR + clrs.BOLD + "Error - There is no such Option. \n" + clrs.ENDC)
         main()
 
 file_size = 0
