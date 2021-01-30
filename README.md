@@ -9,6 +9,20 @@
 * pip
 * pytube 10.4.1
 
+## Installation
+* Clone this repository using `git clone` command (or just download the `zip` version).
+* Install pytube using `pip`.
+  ```bash
+  $ pip install pytube
+  ```
+
+## Usage
+* On Project directory run
+  ```bash
+  $ python yutub.py
+  ```
+* Copy & paste the YouTube URL
+
 ## Config
 * Download Path
   > The default Dowload path is set to `$home/Downloads/Videos`. <br>
@@ -30,21 +44,6 @@
   ```bash
   $ your-alias
   ```
-  
-
-## Installation
-* Clone this repository using `git clone` command (or just download the `zip` version).
-* Install pytube using `pip`.
-  ```bash
-  $ pip install pytube
-  ```
-
-## Usage
-* On Project directory run
-  ```bash
-  $ python yutub.py
-  ```
-* Copy & paste the YouTube URL
 
 ## License
 As you can see Yutub Downloader is under MIT License
