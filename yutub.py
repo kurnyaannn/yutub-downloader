@@ -50,7 +50,7 @@ def singleDownload():
     try:
         video = YouTube(yt_url, on_progress_callback=on_progress)
     except:
-        print(clrs.ERROR + clrs.BOLD + "Error - Check your:\n  -Internet connection\n  -The URL is a YouTube URL\n" clrs.ENDC)
+        print(clrs.ERROR + clrs.BOLD + "Error - Check your:\n  -Internet connection\n  -The URL is a YouTube URL\n" + clrs.ENDC)
         redo = main()
     
     list_quality = get_resolution(video)
@@ -82,7 +82,7 @@ def playlistDownload():
     try:
         playlist = Playlist(yt_url)
     except:
-        print(clrs.ERROR + clrs.BOLD + "Error - Check your:\n  -Internet connection\n  -The URL is a YouTube URL\n" clrs.ENDC)
+        print(clrs.ERROR + clrs.BOLD + "Error - Check your:\n  -Internet connection\n  -The URL is a YouTube URL\n" + clrs.ENDC)
         redo = main()
     
     for video in playlist:
