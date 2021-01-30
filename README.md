@@ -35,15 +35,15 @@
 ## Installation
 * Clone this repository using `git clone` command (or just download the `zip` version).
 * Install pytube using `pip`.
-```bash
-$ pip install pytube
-```
+  ```bash
+  $ pip install pytube
+  ```
 
 ## Usage
 * On Project directory run
-```bash
-$ python yutub.py
-```
+  ```bash
+  $ python yutub.py
+  ```
 * Copy & paste the YouTube URL
 
 ## License
