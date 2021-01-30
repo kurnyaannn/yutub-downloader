@@ -20,7 +20,7 @@
       download_path = os.path.join(home, '$YOUR_PATH')
       ...
   ```
-* Tips
+* Tips <br>
   Make an alias on your shell / bash to make it more flexible, for example in my zsh
   ```bash
   #! $home/.zshrc
