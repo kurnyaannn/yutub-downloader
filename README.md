@@ -1,7 +1,7 @@
 <h1 align="center">Yutub Downloader</h1>
 
 <p align="center">
-  <img src="https://github.com/kurnyaannn/yutub-downloader/blob/master/demo.gif?raw=true">
+  <img src="https://github.com/kurnyaannn/yutub-downloader/blob/master/yd-demo.gif?raw=true">
 </p>
 
 ## Requirements
