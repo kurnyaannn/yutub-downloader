@@ -35,7 +35,7 @@
       ...
   ```
 * Tips <br>
-  Make an alias on your shell / bash to make it more flexible, for example in my zsh
+  Make an alias in your shell / bash to make it more flexible, for example in my zsh
   ```bash
   #! $home/.zshrc
   alias your-alias="python /dir/to/this/project/yutub.py"
