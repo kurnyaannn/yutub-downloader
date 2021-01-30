@@ -4,6 +4,11 @@
   <img src="https://github.com/kurnyaannn/yutub-downloader/blob/master/yd-demo.gif?raw=true">
 </p>
 
+## Disclaimer
+> "For personal use, no it is not illegal to download YouTube video. But it is immoral." <br>
+
+Read <a href="https://www.techadvisor.co.uk/how-to/internet/is-it-legal-download-youtube-videos-3420353/">this article</a> for more.
+
 ## Requirements
 * python 3.8+
 * pip
